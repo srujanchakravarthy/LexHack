@@ -1,0 +1,16 @@
+﻿AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Helpdesk Ticket
+Resources:
+  HelpDesk:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs4.3
+      CodeUri: .
+      Description: Helpdesk Ticket
+      MemorySize: 128
+      Timeout: 10
+      Role: 'arn:aws:iam::475971158259:role/LamdaExecution'
+      Tags:
+        'lambda-console:blueprint': lex-make-appointment
