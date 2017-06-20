@@ -186,7 +186,7 @@ console.log("Adding a new item...");*/
 
     var eParams = {
             Destination: {
-                ToAddresses: ["r.srikanthteja@gmail.com"]
+                ToAddresses: ["xxx@gmail.com"]
                },
             Message: {
                 Body: {
@@ -198,7 +198,7 @@ console.log("Adding a new item...");*/
                     Data: "HelpDesk Ticket Raised : " + hexstring 
                 }
             },
-            Source: "srujanchakravarthy@gmail.com"
+            Source: "xxx@gmail.com"
         };
     
         console.log('===SENDING EMAIL===');
