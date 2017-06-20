@@ -186,7 +186,7 @@ console.log("Adding a new item...");*/
 
     var eParams = {
             Destination: {
-                ToAddresses: ["srujanchakravarthy@gmail.com"]
+                ToAddresses: ["xxx@gmail.com"]
                },
             Message: {
                 Body: {
@@ -198,7 +198,7 @@ console.log("Adding a new item...");*/
                     Data: "Password Reset Accomplished : " + hexstring 
                 }
             },
-            Source: "srujanchakravarthy@gmail.com"
+            Source: "xxx@gmail.com"
         };
     
         console.log('===SENDING EMAIL===');
